@@ -1,19 +1,10 @@
 {
   "articles": [{
-    "title": "后台API架构",
-    "date": "2016-12-08 12:12",
-    "summary": "hahahahhahahhahahahhahahha建设大街可视对讲哈师大按实际的宫颈癌和闪光灯",
+    "title": "Vue2.0中Filter的使用问题",
+    "date": "2017-05-28 22:51",
+    "summary": "我们知道 Vue.js 允许自定义过滤器，可被用作一些常见的文本格式化，由“管道”符指示。但在 Vue2.0 中过滤器做了很多修改，需要我们去注意",
     "tags": [
-      "php",
       "vue"
-    ]
-  }, {
-    "title": "一日总结",
-    "date": "2016-11-21 13:24",
-    "summary": "爱盛开几点回就安康市大家哈师大哈师大",
-    "tags": [
-      "job",
-      "php"
     ]
   }]
 }
