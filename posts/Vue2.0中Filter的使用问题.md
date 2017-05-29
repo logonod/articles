@@ -2,7 +2,7 @@
 
 在 Vue1.0 中内置了几种实用的过滤器函数如 `uppercase` ，但在 Vue2.0 中这些方法都被废除了需要自己定义过滤器。
 
-定义的方法：注册一个自定义过滤器，它接收两个参数：过滤器 ID 和 过滤器函数，其中过滤器函数接收多个参数。
+#### 定义的方法：注册一个自定义过滤器，它接收两个参数：过滤器 ID 和 过滤器函数，其中过滤器函数接收多个参数。
 
 举个栗子：
 
@@ -79,7 +79,7 @@ export default {
 </script>
 ```
 
-这种写法在 Vue1.0 中并没有问题，但是在 Vue2.0 中抛出错误：
+#### 这种写法在 Vue1.0 中并没有问题，但是在 Vue2.0 中抛出错误：
 
 > property or method "marked" is not defined on the instance but referenced during render. Make sure to declare reactive data properties in the data option
 
