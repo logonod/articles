@@ -45,21 +45,22 @@
     
     private $table = 'user';
     
-    public function __construct() {
+    private function __construct() {
     	$this->load->database();
     }
     
-    add_user($data = array()) {}
+    public function add_user($data = array()) {}
     
-    get_user($u_id, $column = '*') {}
+    public function get_user($u_id, $column = '*') {}
     
-    get_user_page($where = array(), $column = '*', $offset = 0, $limit = 100) {}
+    public function get_user_page($where = array(), $column = '*', $offset = 0, $limit = 100) {}
     
-    update_user($u_id, $data = array()) {}
+    public function update_user($u_id, $data = array()) {}
     
-    delete_user($u_id) {}
+    public function delete_user($u_id) {}
     
-    is_user($where = array()) {}
+    public function is_user($where = array()) {}
+    
   }
   ```
 3. 在 `logic` 层中我们编写业务代码，如：把从 `model` 中获取来的元数据进行处理，组装成前端想要的数据格式。
