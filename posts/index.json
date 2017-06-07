@@ -32,7 +32,7 @@
 	}, {
 		"title": "深入理解JavaScript原型和原型链",
 		"date": "2017-06-04 23:18",
-		"summay": "原型是 JavaScript 中一个比较难理解的概念, 本文主要通过举例加图注的形式加深对原型及原型链概念的理解。如有不正之处，欢迎指出",
+		"summary": "原型是 JavaScript 中一个比较难理解的概念, 本文主要通过举例加图注的形式加深对原型及原型链概念的理解。如有不正之处，欢迎指出",
 		"tags": [
 			"javascript",
 			"深入理解系列"
@@ -40,7 +40,7 @@
 	}, {
 		"title": "React常见问题的整理",
 		"date": "2017-06-07 18:28",
-		"summay": "React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站。React 的设计可以简单理解为 组件的组合模式和数据的单向流动。以下是 React 常见问题的整理",
+		"summary": "React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站。React 的设计可以简单理解为 组件的组合模式和数据的单向流动。以下是 React 常见问题的整理",
 		"tags": [
 			"javascript",
 			"react"
